@@ -1,7 +1,7 @@
 use std::fs;
 
 fn main () {
-    let input = fs::read_to_string("day01_1.txt").expect("Should be able to read file");
+    let input = fs::read_to_string("day01.txt").expect("Should be able to read file");
     // let len = input.len();
     // println!("With text:\n{input}");
     // println!("{len}");

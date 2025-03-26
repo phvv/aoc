@@ -1,7 +1,7 @@
 use std::fs;
 
 fn main () {
-    let input = fs::read_to_string("day01_1.txt").expect("Should be able to read file");
+    let input = fs::read_to_string("day01.txt").expect("Should be able to read file");
     let len = input.len();
     // println!("With text:\n{input}");
     // println!("{len}");
@@ -9,7 +9,7 @@ fn main () {
     let mut output = 0;
     let mut first_dig = 10;
     let mut last_dig = 10;
-    
+
     for (idx, val) in input.chars().enumerate() {
         if val == '\n' {
             output += 10 * first_dig + last_dig;

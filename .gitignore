@@ -1,3 +1,0 @@
-# only include Rust files
-**/*
-!*.rs
